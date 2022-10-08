@@ -2,11 +2,11 @@
 
 ## Description
 
-A short description explaining the what, why, and how of project "Employee-Tracker":
+A short description explaining the what, why, and how of project "E-commerce Back End":
 
-An application called "Employee-Tracker" that is a command-line application which can manage a company's employee database, using Node.js, Inquirer, and MySQL.
+An application called "E-commerce Back End" builds the back end for an e-commerce site. The application uses Express.js API and configures it to use Sequelize to interact with a MySQL database.
 
-A walkthrough video that demonstrates its functionality is included with a link to the video of your project. 
+A walkthrough video demonstrates its functionality and all of the following acceptance criteria being met. A link to the video is located below under the URL section.
 
 ## User Story
 
@@ -55,13 +55,15 @@ Pulling the GitHub repository from the follwing URL: https://github.com/RamRod79
 
         - Enter ```mysql -u root -p``` in the terminal window.
         - Enter your mysql password. 
-        - Create database by entering ```CREATE DATABASE employeeTracker_db;``` and enter.
+        - Create database by entering ```CREATE DATABASE ecommerce_db;``` and enter.
         - Then enter ```SHOW databases;```.
-        - To use the employees database; enter ```USE employeeTracker_db;```.
+        - To use the ecommerce database; enter ```USE ecommerce_db;```.
         - In order to use your .sql files enter ```source db/schema.sql;``` and enter, then type ```source db/seeds.sql;``` and enter.
         - Exit MySQL by entering ```quit;```.
   
-  Run ```node index.js``` or ```npm start``` in your terminal to satrt.
+  Run ```node index.js``` or ```npm start``` in your terminal to start.
+
+  Open Insomnia to run through the various API routes.
 
 ## Usage
 
@@ -87,7 +89,7 @@ The following licenses have been used in the development of this project:
 
 ## Repo Features
 
-Using this repo can be initiated by running 'npm run Start' in the command terminal after opening the integrated terminal to initiate the program. Using this repo requires express and nodemon, and updated node modules to ensure application runs properly.
+Using this repo can be initiated by running 'npm run Start' in the command terminal after opening the integrated terminal to initiate the program. Using this repo requires express and sequelize, and updated node modules to ensure application runs properly.
 
 ## How to Contribute
 
