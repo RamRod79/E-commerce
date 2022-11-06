@@ -96,9 +96,9 @@ Using this repo can be initiated by running 'npm run Start' in the command termi
 If other developers would like to contribute, you can contact me at armando.rod79@gmail.com.
 
 ## URL
-GitHub: https://github.com/RamRod79/Ecommerce.git
+GitHub: https://github.com/RamRod79/E-commerce.git
 
-video: https://drive.google.com/
+video: https://drive.google.com/file/d/1L8lNZDmadIJoT-o3Tc_VSIY-tbgHkmPl/view
 
 ## Contact Info
 
