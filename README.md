@@ -58,10 +58,10 @@ Pulling the GitHub repository from the follwing URL: https://github.com/RamRod79
         - Create database by entering ```CREATE DATABASE ecommerce_db;``` and enter.
         - Then enter ```SHOW databases;```.
         - To use the ecommerce database; enter ```USE ecommerce_db;```.
-        - In order to use your .sql files enter ```source db/schema.sql;``` and enter, then type ```source db/seeds.sql;``` and enter.
+        - In order to use your .sql files enter ```source db/schema.sql;``` and enter.
         - Exit MySQL by entering ```quit;```.
   
-  Run ```node index.js``` or ```npm start``` in your terminal to start.
+  Run ```node run start``` in your terminal to start.
 
   Open Insomnia to run through the various API routes.
 
